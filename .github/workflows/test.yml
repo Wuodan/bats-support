@@ -8,7 +8,7 @@ on:
 permissions: {}
 jobs:
   test:
-    uses: bats-core/.github/.github/workflows/test.yml@main
+    uses: Wuodan/bats-.github/.github/workflows/test.yml@v1
     permissions:
       contents: read
       security-events: write
